@@ -1,1 +1,7 @@
-module.exports = text => text.split('').reduce((bobbed, char) => bobbed += Math.random() > 0.5 ? char.toUpperCase() : char.toLowerCase()) // lol i literally wrote it in one shot
+module.exports = text => {
+  if (!text) return
+
+  return text.split('').reduce((bobbed, char) => {
+    return bobbed += Math.random() > 0.5 ? char.toUpperCase() : char.toLowerCase()
+  })
+}
