@@ -1,0 +1,10 @@
+{
+  "name": "bobs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "bin",
+  "author": "Iqbal Perkasa <iqbalperkasa@gmail.com>",
+  "homepage": "https://github.com/iqbalperkasa/bobs",
+  "keywords": ["spongebob", "mock", "mocking", "meme"]
+}

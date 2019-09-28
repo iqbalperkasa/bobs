@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const mocked = require('./index')
+
+const args = process.argv
+
+args.shift()
+args.shift()
+
+const text = args.join(' ')
+
+console.log(mocked(text))
